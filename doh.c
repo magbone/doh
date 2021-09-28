@@ -902,7 +902,7 @@ int main(int argc, char **argv)
       help(NULL);
       break;
     case 'x':
-      if (!*++argv) help("requires paramaters");
+      if (!*++argv) help("requires parameters");
       config.use_proxy = true;
       (void) parse_proxy(&config, *argv);
       argc--;

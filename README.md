@@ -2,7 +2,7 @@
 
 **This resposity cloned from https://github.com/curl/doh and I add a new feature which it can work through proxy.**
 
-You only use ```-x``` paramater and follow the proxy url like ```socks5:\\127.0.0.1:1080``` to make it.
+You just need to add the protocol and address of the proxy server after the -x parameter.
 
 [![Build Status](https://travis-ci.org/curl/doh.svg?branch=master)](https://travis-ci.org/curl/doh)
 
