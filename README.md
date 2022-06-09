@@ -40,7 +40,7 @@ servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-ser
 
 ## Example with proxy
 ```
-$ doh -x socks5://127.00.1:1080 www.google.com
+$ doh -x socks5://127.0.0.1:1080 www.google.com
 [www.google.com]
 TTL: 183 seconds
 A: 142.250.188.228
